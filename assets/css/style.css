@@ -1,0 +1,212 @@
+html{ 
+      position: relative;
+      min-height: 100%;
+}
+
+body { background-image: url(../images/vintage-concrete.png);
+       margin: 0 auto;
+       min-height: 100%;
+}
+
+nav {  width: 100%;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 16px;
+       color: #777777;
+       vertical-align: top;
+       margin: 0 auto;
+       margin-bottom: 20px;
+       background-color: #fff;       
+}
+
+.nav-content { max-width: 960px;
+               margin: 0 auto;
+               padding: 0;
+               position: relative;
+}
+
+.nav-link {padding: 33px 15px;
+}
+
+
+
+.nav a:hover { background-color: #ddd;
+               color: black;
+}
+
+.nav a.active { background-color:#4aaaa5;
+                color: black;
+}
+
+#name { background-color: #4aaaa5;  
+        margin: 0;
+        padding:30px 10px 30px 10px; 
+        color: #fff;
+        font-size: 25px;
+        position: absolute;
+        left: 0;
+}
+
+.content { max-width: 960px;
+           height: auto;
+           margin: 0 auto;
+           background-color: #fff;
+           min-height: 100%;
+           margin-bottom: 80px;           
+}
+
+#About { color: #4aaaa5;
+         padding: 20px;
+}
+
+#BioImg { margin: 25px 20px 10px 20px;
+}
+
+#BioText { margin: 20px;
+           line-height: 1.5;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 20px;
+           padding-bottom: 100px;
+}
+
+hr {display: block;
+    width: 100%;
+    height: 5px;
+    border: 0;
+    border-top: 3px solid #777777;
+    margin: 1em 40px;
+    padding: 0;    
+}
+
+form { margin: 20px;
+       padding-bottom: 60px;
+}
+
+.btn {background-color: #4aaaa5;
+      border-color: #777777;
+}
+
+.footer-container {
+    height: 50px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #666666; 
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-top: solid 8px #4aaaa5;   
+}
+
+
+
+.port1 { 
+    background: url(../images/mma.jpg);
+    background-size: cover;
+    position: relative;
+    height:200px;
+    margin: 20px 40px;
+    overflow: hidden;
+    border: solid 1px #777777;
+}
+
+.port2 { 
+    background: url(../images/hockey.jpg);
+    background-size: cover;
+    position: relative;
+    height:200px;
+    margin: 20px 40px;
+    overflow: hidden;
+    border: solid 1px #777777;
+}
+
+.port3 { 
+    background: url(../images/computers.jpg);
+    background-size: cover;
+    position: relative;
+    height: 200px;
+    margin: 20px 40px;
+    overflow: hidden;
+    border: solid 1px #777777;
+}
+
+.port4 { 
+    background: url(../images/motorcycles.jpg);
+    background-size: cover;
+    position: relative;
+    height: 200px;
+    margin: 20px 40px;
+    overflow: hidden;
+    border: solid 1px #777777;
+}
+
+.port5 { 
+    background: url(../images/nfl.png);
+    background-size: cover;
+    position: relative;
+    height: 200px;
+    margin: 20px 40px;
+    overflow: hidden;
+    border: solid 1px #777777;
+}
+
+.text { position: absolute;
+    bottom: 30px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font: 16px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .nav-content {margin: 0px auto;
+                  width:80%;}
+    .content { width: 90%;
+               margin: 10 auto;}
+    .port1 { flex:100%; 
+             padding-top:100%}
+    .port2 { flex:100%;
+             padding-top:100%}
+    .port3 { flex:100%;
+             padding-top:100%}
+    .port4 { flex:100%;
+             padding-top:100%}
+    .port5 { flex:100%;
+             padding-top:100%}                                   
+    
+}
+
+@media screen and (max-width: 320px) {
+
+    .nav-content {margin: 0px auto;
+                  width:80%;}
+    .content { width: 90%;
+               margin: 10 auto;}
+    .port1 { flex:100%; 
+             padding-top:100%;
+             min-width:90%;}
+    .port2 { flex:100%;
+             padding-top:100%;
+             min-width:90%;}
+    .port3 { flex:100%;
+             padding-top:100%;
+             min-width:90%;}
+    .port4 { flex:100%;
+             padding-top:100%;
+             min-width:90%;}
+    .port5 { flex:100%;
+             padding-top:100%;
+             min-width:90%;}                                   
+    
+}
+
