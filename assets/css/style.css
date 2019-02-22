@@ -208,6 +208,18 @@ form { margin: 20px;
     border: solid 1px #777777;
 }
 
+.port9 { 
+    background: url(../images/friends.jpg);
+    background-size: contain;
+    background-position: center;  
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+    margin: 20px 40px;
+    overflow: hidden;
+    border: solid 1px #777777;
+}
+
 .text { position: absolute;
     bottom: 30px;
     left: 0;
