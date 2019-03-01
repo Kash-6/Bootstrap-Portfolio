@@ -220,6 +220,18 @@ form { margin: 20px;
     border: solid 1px #777777;
 }
 
+.port10 { 
+    background: url(../images/burger.jpg);
+    background-size: contain;
+    background-position: center;  
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+    margin: 20px 40px;
+    overflow: hidden;
+    border: solid 1px #777777;
+}
+
 .text { position: absolute;
     bottom: 30px;
     left: 0;
@@ -255,6 +267,10 @@ form { margin: 20px;
     .port7 { flex:100%;
              padding-top:100%}
     .port8 { flex:100%;
+             padding-top:100%}
+    .port9 { flex:100%;
+             padding-top:100%}
+    .port10 { flex:100%;
              padding-top:100%}                                                     
     
 }
@@ -287,6 +303,12 @@ form { margin: 20px;
              padding-top:100%;
              min-width:90%;}
     .port8 { flex:100%;
+             padding-top:100%;
+             min-width:90%;}
+    .port9 { flex:100%;
+             padding-top:100%;
+             min-width:90%;}
+    .port10 { flex:100%;
              padding-top:100%;
              min-width:90%;}                                   
     
