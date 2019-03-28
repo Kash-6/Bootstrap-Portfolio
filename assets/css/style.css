@@ -244,6 +244,18 @@ form { margin: 20px;
     border: solid 1px #777777;
 }
 
+.port12 { 
+    background: url(../images/mongo.png);
+    background-size: contain;
+    background-position: center;  
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+    margin: 20px 40px;
+    overflow: hidden;
+    border: solid 1px #777777;
+}
+
 .text { position: absolute;
     bottom: 30px;
     left: 0;
@@ -285,7 +297,9 @@ form { margin: 20px;
     .port10 { flex:100%;
              padding-top:100%}
     .port11 { flex:100%;
-             padding-top:100%}                                                     
+             padding-top:100%}      
+    .port12 { flex:100%;
+             padding-top:100%}                                               
     
 }
 
@@ -326,6 +340,9 @@ form { margin: 20px;
              padding-top:100%;
              min-width:90%;}
     .port11 { flex:100%;
+             padding-top:100%;
+             min-width:90%;}
+    .port12 { flex:100%;
              padding-top:100%;
              min-width:90%;}                                   
     
