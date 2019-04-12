@@ -268,6 +268,18 @@ form { margin: 20px;
     border: solid 1px #777777;
 }
 
+.port14 { 
+    background: url(../images/books.jpg);
+    background-size: contain;
+    background-position: center;  
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+    margin: 20px 40px;
+    overflow: hidden;
+    border: solid 1px #777777;
+}
+
 .text { position: absolute;
     bottom: 30px;
     left: 0;
@@ -314,7 +326,9 @@ form { margin: 20px;
              padding-top:100%}
     .port13 { flex:100%;
              padding-top:100%}                                               
-    
+    .port14 { flex:100%;
+             padding-top:100%}   
+        
 }
 
 @media screen and (max-width: 320px) {
@@ -362,5 +376,11 @@ form { margin: 20px;
     .port12 { flex:100%;
              padding-top:100%;
              min-width:90%;}
+    .port13 { flex:100%;
+             padding-top:100%;
+             min-width:90%;}  
+    .port14 { flex:100%;
+             padding-top:100%;
+             min-width:90%;}      
 }
 
